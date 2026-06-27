@@ -5,3 +5,4 @@ para realizar analisis predictivo de datos bancarios relacionados con creditos.
 
 El objetivo principal es desarrollar modelos predictivos que ayuden en la toma de decisiones
 sobre la evaluacion y otorgamiento de creditos bancarios.
+Cada Ejercicio cuenta con un manual paso a paso para poder ir implemaenrado su funcionalidad
