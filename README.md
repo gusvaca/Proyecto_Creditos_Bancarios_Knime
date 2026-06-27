@@ -1,41 +1,67 @@
 # 📊 Proyecto Créditos Bancarios con KNIME y Orange
 
-![KNIME](https://img.shields.io/badge/KNIME-Analytics-yellow)
+> **Proyecto de Maestría** enfocado en la aplicación de técnicas de **Minería de Datos** y **Analítica Predictiva** utilizando herramientas Low-Code como **KNIME Analytics Platform** y **Orange Data Mining** para el análisis de solicitudes de créditos bancarios.
+
+![KNIME](https://img.shields.io/badge/KNIME-Analytics%20Platform-yellow?logo=knime)
 ![Orange](https://img.shields.io/badge/Orange-Data%20Mining-orange)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-blue)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-black)
-
-## 📖 Descripción
-
-Este repositorio contiene el desarrollo del proyecto académico **Analítica Predictiva de Créditos Bancarios**, implementado mediante herramientas **Low-Code** utilizando **KNIME Analytics Platform** y **Orange Data Mining**.
-
-El objetivo del proyecto es aplicar técnicas de minería de datos para analizar información de solicitudes de crédito y construir modelos predictivos que apoyen la toma de decisiones en entidades financieras.
+![License](https://img.shields.io/badge/License-Academic-green)
 
 ---
 
-# 🎯 Objetivos
+# 📖 Descripción
 
-## Objetivo General
+Este repositorio contiene el desarrollo del proyecto académico de **Analítica Predictiva de Créditos Bancarios**, implementado mediante las plataformas **KNIME Analytics Platform** y **Orange Data Mining**.
 
-Desarrollar un modelo de analítica predictiva utilizando KNIME y Orange para evaluar solicitudes de créditos bancarios mediante técnicas de minería de datos y aprendizaje automático.
+El propósito del proyecto es demostrar la aplicación del proceso de minería de datos utilizando herramientas visuales Low-Code para construir modelos predictivos que permitan apoyar la evaluación de solicitudes de crédito mediante técnicas de aprendizaje automático.
 
-## Objetivos Específicos
+Durante el desarrollo se realizaron las etapas de:
+
+- Comprensión del negocio.
+- Comprensión de los datos.
+- Preparación de datos.
+- Construcción del modelo.
+- Evaluación de resultados.
+- Comparación entre KNIME y Orange.
+
+---
+
+# 🎯 Objetivo General
+
+Desarrollar un modelo de analítica predictiva para la evaluación de créditos bancarios utilizando herramientas Low-Code de minería de datos, aplicando la metodología CRISP-DM y algoritmos de Machine Learning.
+
+---
+
+# 🎯 Objetivos Específicos
 
 - Explorar el conjunto de datos.
-- Realizar limpieza y preparación de la información.
+- Analizar las variables disponibles.
+- Preparar y limpiar la información.
 - Construir modelos predictivos.
-- Comparar los resultados obtenidos entre KNIME y Orange.
-- Evaluar el desempeño de los modelos mediante métricas de clasificación.
+- Evaluar el desempeño de los modelos.
+- Comparar la implementación entre KNIME y Orange.
+- Obtener métricas que permitan determinar el mejor modelo.
 
 ---
 
-# 🛠 Herramientas utilizadas
+# 🏦 Caso de estudio
 
-- KNIME Analytics Platform
-- Orange Data Mining
-- Machine Learning
-- GitHub
-- Microsoft Excel
+El proyecto se enfoca en el análisis de información de clientes que solicitan créditos bancarios.
+
+A partir de variables financieras y demográficas se construyen modelos que permiten estimar la probabilidad de aprobación o rechazo de una solicitud de crédito, apoyando la toma de decisiones mediante técnicas de analítica predictiva.
+
+---
+
+# ⚙️ Tecnologías utilizadas
+
+| Tecnología | Descripción |
+|------------|-------------|
+| KNIME Analytics Platform | Plataforma Low-Code para minería de datos |
+| Orange Data Mining | Plataforma visual para Machine Learning |
+| Machine Learning | Modelos predictivos |
+| GitHub | Control de versiones |
+| Microsoft Excel | Preparación inicial del dataset |
 
 ---
 
@@ -44,136 +70,186 @@ Desarrollar un modelo de analítica predictiva utilizando KNIME y Orange para ev
 ```text
 Proyecto_Creditos_Bancarios_Knime
 │
-├── PaqueteKnime/
-│   ├── Workflow KNIME
-│   ├── Configuración
-│   └── Resultados
+├── 📁 PaqueteKnime
 │
-├── PaqueteOrange/
-│   ├── Workflow Orange (.ows)
-│   ├── Configuración
-│   └── Resultados
+├── 📁 PaqueteOrange
 │
-├── data/
-│   ├── Dataset original
-│   └── Dataset procesado
+├── 📁 data
 │
-├── README.md
+├── 📄 README.md
 │
-└── info.txt
+└── 📄 info.txt
 ```
 
 ---
 
-# 📂 Descripción de las carpetas
+# 📂 Contenido del repositorio
 
 ## 📁 PaqueteKnime
 
-Contiene el flujo desarrollado en KNIME, incluyendo:
+Contiene el proyecto desarrollado en **KNIME Analytics Platform**, incluyendo el flujo completo de minería de datos.
 
-- Importación de datos
-- Limpieza de información
-- Transformación de variables
-- Entrenamiento del modelo
-- Evaluación
-- Resultados obtenidos
+Entre las actividades realizadas se encuentran:
+
+- Importación del dataset.
+- Limpieza de datos.
+- Transformación de variables.
+- Selección de atributos.
+- Entrenamiento del modelo.
+- Evaluación del desempeño.
+- Generación de resultados.
 
 ---
 
 ## 📁 PaqueteOrange
 
-Incluye el flujo equivalente desarrollado en Orange Data Mining con los widgets utilizados para:
+Contiene el proyecto desarrollado utilizando **Orange Data Mining**.
 
-- Carga del dataset
-- Preparación de datos
-- Visualización
-- Clasificación
-- Evaluación del modelo
+Incluye el flujo equivalente construido mediante widgets para realizar:
+
+- Lectura del dataset.
+- Preparación de datos.
+- Exploración visual.
+- Construcción del modelo.
+- Evaluación.
+- Predicciones.
 
 ---
 
 ## 📁 data
 
-Contiene el conjunto de datos utilizado durante el proyecto.
+Contiene el conjunto de datos utilizado durante el desarrollo del proyecto.
 
-Puede incluir:
+El dataset corresponde a información utilizada para entrenar y evaluar los modelos predictivos de créditos bancarios.
 
-- Dataset original
-- Dataset limpio
-- Archivos de apoyo
+---
+
+## 📄 README.md
+
+Documento principal del repositorio.
+
+Describe el objetivo, estructura, metodología, tecnologías utilizadas e instrucciones para ejecutar el proyecto.
+
+---
+
+## 📄 info.txt
+
+Archivo de información complementaria del proyecto.
 
 ---
 
 # 🔄 Metodología
 
-El proyecto sigue la metodología **CRISP-DM**, compuesta por las siguientes fases:
+El desarrollo sigue la metodología internacional **CRISP-DM (Cross Industry Standard Process for Data Mining)**.
 
-1. Comprensión del negocio.
-2. Comprensión de los datos.
-3. Preparación de datos.
-4. Modelado.
-5. Evaluación.
-6. Presentación de resultados.
+## 1. Comprensión del negocio
+
+Identificación del problema relacionado con la evaluación de solicitudes de crédito.
+
+## 2. Comprensión de los datos
+
+Análisis exploratorio del conjunto de datos.
+
+## 3. Preparación de datos
+
+- Limpieza
+- Tratamiento de valores nulos
+- Conversión de variables
+- Transformación de datos
+
+## 4. Modelado
+
+Construcción de modelos de clasificación mediante herramientas Low-Code.
+
+## 5. Evaluación
+
+Comparación de resultados utilizando métricas de desempeño.
+
+## 6. Despliegue
+
+Presentación de resultados y conclusiones obtenidas.
 
 ---
 
-# 🤖 Modelos aplicados
+# 🤖 Técnicas de Machine Learning
 
-Dependiendo del flujo implementado, se pueden emplear algoritmos como:
+Durante el proyecto pueden emplearse algoritmos de clasificación como:
 
-- Árboles de decisión
+- Decision Tree
 - Random Forest
+- Logistic Regression
 - Naive Bayes
-- Regresión Logística
-- Redes Neuronales
+- Neural Network
 - K-Nearest Neighbors
 
+La selección del algoritmo dependerá del flujo implementado dentro de KNIME y Orange.
+
 ---
 
-# 📊 Resultados esperados
+# 📈 Resultados esperados
 
 El proyecto permite obtener:
 
-- Dataset preparado.
-- Variables seleccionadas.
+- Dataset limpio.
+- Variables preparadas.
 - Modelo entrenado.
-- Matriz de confusión.
+- Predicciones.
 - Accuracy.
 - Precision.
 - Recall.
-- F1 Score.
-- Predicciones sobre solicitudes de crédito.
+- F1-Score.
+- Matriz de Confusión.
+- Comparación entre plataformas.
 
 ---
 
-# 🚀 Cómo ejecutar el proyecto
+# 🚀 Ejecución del proyecto
 
-## KNIME
+## Requisitos
 
-1. Instalar KNIME Analytics Platform.
-2. Abrir el contenido de **PaqueteKnime**.
-3. Verificar la ubicación del dataset.
+- KNIME Analytics Platform 5.x o superior.
+- Orange Data Mining.
+- Java 17 (para KNIME).
+- Dataset ubicado dentro de la carpeta **data**.
+
+---
+
+## Ejecutar el flujo en KNIME
+
+1. Abrir KNIME Analytics Platform.
+2. Importar el proyecto ubicado en **PaqueteKnime**.
+3. Verificar la ruta del dataset.
 4. Ejecutar todos los nodos.
-5. Analizar los resultados.
+5. Analizar los resultados obtenidos.
 
-## Orange
+---
 
-1. Instalar Orange Data Mining.
-2. Abrir el archivo correspondiente dentro de **PaqueteOrange**.
-3. Actualizar la ruta del dataset si es necesario.
+## Ejecutar el flujo en Orange
+
+1. Abrir Orange Data Mining.
+2. Abrir el proyecto ubicado en **PaqueteOrange**.
+3. Verificar la ubicación del dataset.
 4. Ejecutar el flujo.
 5. Revisar las métricas obtenidas.
 
 ---
 
-# 📚 Tecnologías
+# 📊 Beneficios del proyecto
 
-| Tecnología | Uso |
-|------------|-----|
-| KNIME | Flujo de minería de datos |
-| Orange | Modelado visual |
-| Machine Learning | Clasificación predictiva |
-| GitHub | Control de versiones |
+- Automatización del análisis de datos.
+- Comparación entre herramientas Low-Code.
+- Aplicación práctica de Machine Learning.
+- Reproducibilidad del proceso.
+- Facilita la toma de decisiones basada en datos.
+
+---
+
+# 📚 Referencias
+
+- CRISP-DM Consortium. (2000). *CRISP-DM 1.0 Step-by-Step Data Mining Guide.*
+- Han, J., Kamber, M., & Pei, J. *Data Mining: Concepts and Techniques.*
+- KNIME AG. *KNIME Analytics Platform Documentation.*
+- Orange Data Mining Documentation.
 
 ---
 
@@ -181,22 +257,38 @@ El proyecto permite obtener:
 
 **Gustavo Vaca**
 
-Subgerente de Soluciones TI
-
 Ingeniero en Sistemas
 
 Maestría en Transformación Digital
 
-Especialista en Arquitectura Empresarial, Arquitectura de Datos, Desarrollo de Software e Inteligencia Artificial.
+Subgerente de Soluciones TI
+
+Especialista en:
+
+- Arquitectura Empresarial
+- Arquitectura de Datos
+- Desarrollo de Software
+- Inteligencia Artificial
+- Transformación Digital
+
+---
+
+# 🤝 Contribuciones
+
+Este proyecto fue desarrollado con fines académicos.
+
+Las sugerencias y mejoras son bienvenidas mediante la creación de **Issues** o **Pull Requests**.
 
 ---
 
 # 📄 Licencia
 
-Proyecto desarrollado con fines académicos dentro de un programa de Maestría.
+Este proyecto se publica únicamente con fines educativos y académicos.
 
-Puede utilizarse como referencia citando al autor.
+El contenido puede utilizarse como referencia citando al autor correspondiente.
 
 ---
 
-⭐ Si este proyecto te resulta útil, no olvides darle una estrella al repositorio.
+## ⭐ Si este proyecto te fue útil
+
+Si este repositorio te resulta interesante o útil para tus estudios o investigaciones, considera darle una **⭐ Star** en GitHub.
